@@ -1,0 +1,8 @@
+cat 133.sh
+
+while read line
+do
+echo "$line"
+cp 133.sh 134
+
+done<133.sh
