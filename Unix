@@ -1,0 +1,13 @@
+getFile()
+{
+     echo -n "Enter File Name:"
+    read txtFileName
+  
+ 
+}
+
+clear
+      getFile
+      # Converting to upper case if user chose 2
+      echo "Converting Lower-Case to Upper-Case "
+      tr '[a-z]' '[A-Z]' <$txtFileName
