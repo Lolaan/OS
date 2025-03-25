@@ -1,0 +1,5 @@
+clear
+echo "current date and time : $(date)"
+echo "terminal name : $(tty)"
+echo "users : $(users)"
+ echo "login date time : $(w) "
